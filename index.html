@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
+<!-- aplicacion para controlar los precios en un estacionamiento de acuerdo al tiempo de uso del servicio -->
 <body>
+    <head>
+        <h1>PAGA TU ESTACIONAMIENTO</h1>
+        <p>QUE QUIERES HACER?</p>
+        <div class="elegir-accion">
+            <button id="crear-ticket">CREAR UN NUEVO TICKET</button>
+            <button id="pagar-ticket">PAGAR MI TICKET</button>
+        </div>
+    </head>
     
+    <body>
+        <section class="seccion-crear-ticket">
+            <div class="recoger-datos">
+                <form action="" class="datos_vehiculo">
+                    <label for="">
+                        <input type="text" placeholder="ingrese el numero de placa de su vehiculo" required>
+                    </label>
+                    <label for="">
+                        <input type="text" placeholder="ingrese su nombre completo" required>
+                    </label>
+                    <label for="">
+                        <input type="hour" required>
+                    </label>
+                    <button>Crear nuevo ticket</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="seccion-pagar-ticket">
+            <div class="verificar-datos">
+                <input type="text" placeholder="ingrese su numero">
+                <button class="boton">Enviar</button>
+            </div>
+        </section>
+    </body>
+
+    <footer>
+
+    </footer>
 
 
     <script src="./main.js"></script>
